@@ -1,0 +1,8 @@
+.item-left-Acerca-de{
+    display: flex;
+    float: right;
+  }
+  
+  .separador-Acerca-de{
+    margin-left: 20px;
+  }

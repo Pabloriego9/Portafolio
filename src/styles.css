@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+div.card {
+    border-radius: 32px;
+    margin: 10px;
+    padding: 20px;
+    border-color: #292929;
+  }
+  
+  
+  
+  /*  item y lapiz y tacho de basura*/
+  .about-card .about-edit a i {
+    display: flex;
+    color: #000000;
+  }
+  .item-left{
+    display: flex;
+    float: right;
+  }
+
+  .TOP {
+    margin-top: 60px;
+  }
+
+  div.mat-card div.info div.info-image div.btn-edit a.btn-right i {
+    color: #000000;
+  }
+  
+  .separador {
+    margin-left: 20px;
+  }

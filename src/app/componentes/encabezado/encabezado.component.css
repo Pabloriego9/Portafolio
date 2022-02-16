@@ -1,0 +1,105 @@
+div.mat-card div.profile-background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  div.mat-card div.profile-background .background-image {
+    width: 100%;
+    height: 60vh;
+    border-radius: 32px 32px 0 0;
+  }
+  
+  div.mat-card div.info {
+    padding: 16px;
+  }
+  
+  div.mat-card div.info div.info-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  div.mat-card div.info div.info-image .profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+  }
+  
+  
+  div.mat-card div.info div.info-data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  div.mat-card div.info div.info-data div.info-data-personal div.info-contact span a {
+    text-decoration: none;
+  }
+  
+  div.mat-card div.info div.info-data div.info-data-study ul.info-details {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  div.mat-card div.info div.info-data div.info-data-study ul.info-details div {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  div.mat-card div.info div.info-data div.info-data-study ul.info-details div li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  div.mat-card div.info div.info-data div.info-data-study ul.info-details div li a img {
+    width: 50px;
+  }
+  
+  div.mat-card#first-card {
+    padding: 0;
+  }
+  
+  div.mat-card div.info-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+  }
+  
+  div.mat-card div.info-buttons button {
+    margin-right: 15px;
+  }
+  
+  div.mat-card div.info-buttons button:active {
+    background-color: #0d6efd;
+  }
+  
+  .about-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
