@@ -7,6 +7,7 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ExperienciaEducacionComponent } from './componentes/experiencia-educacion/experiencia-educacion.component';
 import { PorfolioService } from './servicios/porfolio.service';
 import {  HttpClientModule } from '@angular/common/http';
+import { EncabezadoNavbarComponent } from './componentes/encabezado-navbar/encabezado-navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {  HttpClientModule } from '@angular/common/http';
     EncabezadoComponent,
     AcercaDeComponent,
     ExperienciaEducacionComponent,
+    EncabezadoNavbarComponent,
   ],
   imports: [
     BrowserModule,

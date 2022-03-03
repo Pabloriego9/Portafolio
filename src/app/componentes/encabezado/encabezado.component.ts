@@ -10,7 +10,9 @@ export class EncabezadoComponent implements OnInit {
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos();
+    this.datosPorfolio.obtenerDatos().subscribe(data => {
+      console.log(data)
+    });
   }
 
 }
