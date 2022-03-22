@@ -1,8 +1,13 @@
 .item-left-Acerca-de{
     display: flex;
     float: right;
+    
   }
   
+  .subir-arriba {
+    margin-top: -70px;
+  } 
+
   .separador-Acerca-de{
     margin-left: 20px;
   }

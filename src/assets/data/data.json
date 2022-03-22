@@ -4,7 +4,15 @@
     "image": "../images/Foto-de-Perfil.jpg",
     "position": "Desarrollador",
     "company": {
-        "name": "Coder Housest",
-        "img": "../images/60b68f6a34b2e95700900f3b_coderhouse-logo.svg"
-    }
+        "name": "CoderHouseses",
+        "img": "ruta-de-IMagen"
+    },
+    "ubication": "Formosa,Formosa (Argentina)",
+    "about": "Full-stack Developer",
+    "project": [
+        {}
+    ],
+    "education": [
+        {}
+    ]
 }
